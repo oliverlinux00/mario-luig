@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background: url(images/image\ 1.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px;
+}
+
+.cabecalho a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0px 25px;
+}
+
+.icones img {
+    padding: 0px 10px;
+}
+
+.icones-itens {
+    display: flex;
+    align-items: center;
+}
+
+.icones-itens img {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: 80px;
+}
+
+.col1 {
+    width: 500px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: white;
+    line-height: 150%;
+}
+
+.col1 p {
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.assistir {
+    padding: 13px 0px;
+    width: 248px;
+    text-transform: uppercase;
+    background-color: #AB2323;
+    color: white;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.comprar {
+    padding: 13px 0px;
+    width: 248px;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: 400;
+    background: none;
+    border: 1px solid #14531E;
+    color: white;
+    cursor: pointer;
+}
